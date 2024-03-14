@@ -16,8 +16,8 @@ public class jsouprun {
 
         try {
             Document doc = Jsoup.connect(url).get();
-            FileWriter fileWriter = new FileWriter("non-target.csv");
-            FileWriter Writers = new FileWriter("target.csv");
+            FileWriter fileWriter = new FileWriter("socialmediatext.csv");
+            FileWriter Writers = new FileWriter("socialmediatext-taget.csv");
 
             fileWriter.write("reviewer name, review, rating and if verfied, date\n"); 
             Writers.write("reviewer name, review, rating and if verfied, date\n"); 
