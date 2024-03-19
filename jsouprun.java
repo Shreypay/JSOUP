@@ -37,7 +37,7 @@ public class SentimentAnalyzer {
 public class JsoupRun {
     public static void main(String[] args) {
         String url = "https://www.walmart.com/reviews/product/1946294711?page=2";
-        String sentimentFilePath = "path/to/your/sentiment.csv"; // Update this path
+        String sentimentFilePath = "JsoupProject/sentiment.csv"; 
 
         SentimentAnalyzer sentimentAnalyzer = new SentimentAnalyzer(sentimentFilePath);
 
